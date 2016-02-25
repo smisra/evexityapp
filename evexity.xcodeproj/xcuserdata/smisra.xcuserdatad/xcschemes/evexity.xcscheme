@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABE237F41C5557F0009ABFCE"
-               BuildableName = "evexity.app"
+               BuildableName = "Evexity.temp_caseinsensitive_rename.app"
                BlueprintName = "evexity"
-               ReferencedContainer = "container:evexity.xcodeproj">
+               ReferencedContainer = "container:Evexity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABE238081C5557F0009ABFCE"
-               BuildableName = "evexityTests.xctest"
+               BuildableName = "Evexity.temp_caseinsensitive_rename.xctest"
                BlueprintName = "evexityTests"
-               ReferencedContainer = "container:evexity.xcodeproj">
+               ReferencedContainer = "container:Evexity.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABE238131C5557F0009ABFCE"
-               BuildableName = "evexityUITests.xctest"
+               BuildableName = "Evexity.temp_caseinsensitive_rename.xctest"
                BlueprintName = "evexityUITests"
-               ReferencedContainer = "container:evexity.xcodeproj">
+               ReferencedContainer = "container:Evexity.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABE237F41C5557F0009ABFCE"
-            BuildableName = "evexity.app"
+            BuildableName = "Evexity.temp_caseinsensitive_rename.app"
             BlueprintName = "evexity"
-            ReferencedContainer = "container:evexity.xcodeproj">
+            ReferencedContainer = "container:Evexity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABE237F41C5557F0009ABFCE"
-            BuildableName = "evexity.app"
+            BuildableName = "Evexity.temp_caseinsensitive_rename.app"
             BlueprintName = "evexity"
-            ReferencedContainer = "container:evexity.xcodeproj">
+            ReferencedContainer = "container:Evexity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABE237F41C5557F0009ABFCE"
-            BuildableName = "evexity.app"
+            BuildableName = "Evexity.temp_caseinsensitive_rename.app"
             BlueprintName = "evexity"
-            ReferencedContainer = "container:evexity.xcodeproj">
+            ReferencedContainer = "container:Evexity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

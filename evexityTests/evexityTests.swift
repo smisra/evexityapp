@@ -21,7 +21,11 @@ class evexityTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testGetEnquiry() {
+
+        let enq = EnquiryModel()
+        enq.getAllEnquiries()
+        
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		ABE237F91C5557F0009ABFCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE237F81C5557F0009ABFCE /* AppDelegate.swift */; };
-		ABE237FB1C5557F0009ABFCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE237FA1C5557F0009ABFCE /* ViewController.swift */; };
+		ABE237FB1C5557F0009ABFCE /* EnquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE237FA1C5557F0009ABFCE /* EnquiryViewController.swift */; };
 		ABE237FE1C5557F0009ABFCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE237FC1C5557F0009ABFCE /* Main.storyboard */; };
 		ABE238001C5557F0009ABFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE237FF1C5557F0009ABFCE /* Assets.xcassets */; };
 		ABE238031C5557F0009ABFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE238011C5557F0009ABFCE /* LaunchScreen.storyboard */; };
 		ABE2380E1C5557F0009ABFCE /* evexityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2380D1C5557F0009ABFCE /* evexityTests.swift */; };
 		ABE238191C5557F0009ABFCE /* evexityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE238181C5557F0009ABFCE /* evexityUITests.swift */; };
+		ABE238291C555F05009ABFCE /* EnquiryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE238281C555F05009ABFCE /* EnquiryModel.swift */; };
+		F7D64AAFAEFC81EF88C620AC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51833AE7FB116446A7CB0AF /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ABE237F51C5557F0009ABFCE /* evexity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evexity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		710A993D6B27FBFA44F57647 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A51833AE7FB116446A7CB0AF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE237F51C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evexity.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE237F81C5557F0009ABFCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABE237FA1C5557F0009ABFCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABE237FA1C5557F0009ABFCE /* EnquiryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnquiryViewController.swift; sourceTree = "<group>"; };
 		ABE237FD1C5557F0009ABFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABE237FF1C5557F0009ABFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE238021C5557F0009ABFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABE238041C5557F0009ABFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABE238091C5557F0009ABFCE /* evexityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evexityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE238091C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Evexity.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE2380D1C5557F0009ABFCE /* evexityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evexityTests.swift; sourceTree = "<group>"; };
 		ABE2380F1C5557F0009ABFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABE238141C5557F0009ABFCE /* evexityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evexityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE238141C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Evexity.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE238181C5557F0009ABFCE /* evexityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evexityUITests.swift; sourceTree = "<group>"; };
 		ABE2381A1C5557F0009ABFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE238281C555F05009ABFCE /* EnquiryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiryModel.swift; sourceTree = "<group>"; };
+		E3024E702BE0A61174430696 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D64AAFAEFC81EF88C620AC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C01CF1352D33B3F29985840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51833AE7FB116446A7CB0AF /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABE237EC1C5557F0009ABFCE = {
 			isa = PBXGroup;
 			children = (
@@ -81,15 +96,17 @@
 				ABE2380C1C5557F0009ABFCE /* evexityTests */,
 				ABE238171C5557F0009ABFCE /* evexityUITests */,
 				ABE237F61C5557F0009ABFCE /* Products */,
+				B07E83727A441E148F65E999 /* Pods */,
+				1C01CF1352D33B3F29985840 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		ABE237F61C5557F0009ABFCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABE237F51C5557F0009ABFCE /* evexity.app */,
-				ABE238091C5557F0009ABFCE /* evexityTests.xctest */,
-				ABE238141C5557F0009ABFCE /* evexityUITests.xctest */,
+				ABE237F51C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.app */,
+				ABE238091C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.xctest */,
+				ABE238141C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +114,9 @@
 		ABE237F71C5557F0009ABFCE /* evexity */ = {
 			isa = PBXGroup;
 			children = (
+				ABE238271C555A38009ABFCE /* models */,
+				ABE238261C555A0C009ABFCE /* controllers */,
 				ABE237F81C5557F0009ABFCE /* AppDelegate.swift */,
-				ABE237FA1C5557F0009ABFCE /* ViewController.swift */,
 				ABE237FC1C5557F0009ABFCE /* Main.storyboard */,
 				ABE237FF1C5557F0009ABFCE /* Assets.xcassets */,
 				ABE238011C5557F0009ABFCE /* LaunchScreen.storyboard */,
@@ -125,6 +143,31 @@
 			path = evexityUITests;
 			sourceTree = "<group>";
 		};
+		ABE238261C555A0C009ABFCE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABE237FA1C5557F0009ABFCE /* EnquiryViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		ABE238271C555A38009ABFCE /* models */ = {
+			isa = PBXGroup;
+			children = (
+				ABE238281C555F05009ABFCE /* EnquiryModel.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		B07E83727A441E148F65E999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3024E702BE0A61174430696 /* Pods.debug.xcconfig */,
+				710A993D6B27FBFA44F57647 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABE2381D1C5557F0009ABFCE /* Build configuration list for PBXNativeTarget "evexity" */;
 			buildPhases = (
+				5965863703F36016E14D44B6 /* Check Pods Manifest.lock */,
 				ABE237F11C5557F0009ABFCE /* Sources */,
 				ABE237F21C5557F0009ABFCE /* Frameworks */,
 				ABE237F31C5557F0009ABFCE /* Resources */,
+				29E787F13EE7E8ADF9866FD7 /* Embed Pods Frameworks */,
+				813DF1B2F5E48921FC68D27C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,7 +188,7 @@
 			);
 			name = evexity;
 			productName = evexity;
-			productReference = ABE237F51C5557F0009ABFCE /* evexity.app */;
+			productReference = ABE237F51C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 		ABE238081C5557F0009ABFCE /* evexityTests */ = {
@@ -160,7 +206,7 @@
 			);
 			name = evexityTests;
 			productName = evexityTests;
-			productReference = ABE238091C5557F0009ABFCE /* evexityTests.xctest */;
+			productReference = ABE238091C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		ABE238131C5557F0009ABFCE /* evexityUITests */ = {
@@ -178,7 +224,7 @@
 			);
 			name = evexityUITests;
 			productName = evexityUITests;
-			productReference = ABE238141C5557F0009ABFCE /* evexityUITests.xctest */;
+			productReference = ABE238141C5557F0009ABFCE /* Evexity.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +239,7 @@
 				TargetAttributes = {
 					ABE237F41C5557F0009ABFCE = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W54XRW6YRR;
 					};
 					ABE238081C5557F0009ABFCE = {
 						CreatedOnToolsVersion = 7.2;
@@ -204,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABE237F01C5557F0009ABFCE /* Build configuration list for PBXProject "evexity" */;
+			buildConfigurationList = ABE237F01C5557F0009ABFCE /* Build configuration list for PBXProject "Evexity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -251,12 +298,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29E787F13EE7E8ADF9866FD7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5965863703F36016E14D44B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		813DF1B2F5E48921FC68D27C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABE237F11C5557F0009ABFCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE237FB1C5557F0009ABFCE /* ViewController.swift in Sources */,
+				ABE237FB1C5557F0009ABFCE /* EnquiryViewController.swift in Sources */,
+				ABE238291C555F05009ABFCE /* EnquiryModel.swift in Sources */,
 				ABE237F91C5557F0009ABFCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,23 +493,31 @@
 		};
 		ABE2381E1C5557F0009ABFCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3024E702BE0A61174430696 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = evexity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codecia.evexity;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evexity.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		ABE2381F1C5557F0009ABFCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710A993D6B27FBFA44F57647 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = evexity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codecia.evexity;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evexity.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -424,8 +528,8 @@
 				INFOPLIST_FILE = evexityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codecia.evexityTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evexity.app/evexity";
+				PRODUCT_NAME = Evexity.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evexity.temp_caseinsensitive_rename.app/Evexity.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -436,8 +540,8 @@
 				INFOPLIST_FILE = evexityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codecia.evexityTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evexity.app/evexity";
+				PRODUCT_NAME = Evexity.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evexity.temp_caseinsensitive_rename.app/Evexity.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -447,7 +551,7 @@
 				INFOPLIST_FILE = evexityUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codecia.evexityUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evexity.temp_caseinsensitive_rename;
 				TEST_TARGET_NAME = evexity;
 				USES_XCTRUNNER = YES;
 			};
@@ -459,7 +563,7 @@
 				INFOPLIST_FILE = evexityUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codecia.evexityUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evexity.temp_caseinsensitive_rename;
 				TEST_TARGET_NAME = evexity;
 				USES_XCTRUNNER = YES;
 			};
@@ -468,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABE237F01C5557F0009ABFCE /* Build configuration list for PBXProject "evexity" */ = {
+		ABE237F01C5557F0009ABFCE /* Build configuration list for PBXProject "Evexity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABE2381B1C5557F0009ABFCE /* Debug */,
@@ -484,6 +588,7 @@
 				ABE2381F1C5557F0009ABFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABE238201C5557F0009ABFCE /* Build configuration list for PBXNativeTarget "evexityTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +597,7 @@
 				ABE238221C5557F0009ABFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABE238231C5557F0009ABFCE /* Build configuration list for PBXNativeTarget "evexityUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +606,7 @@
 				ABE238251C5557F0009ABFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
